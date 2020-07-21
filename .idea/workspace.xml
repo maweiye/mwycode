@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5cfbc1d-b35a-456d-8008-a4292787f591" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mwycode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/xrz/test/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/xrz/test/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/xrz/test/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/xrz/test/App.class" afterDir="false" />
     </list>
@@ -26,6 +22,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="maweiye" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="mwycode" />
+  </component>
   <component name="ProjectId" id="1ezMdN4xKTGAe6ZjN3DjJ5psrlz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -38,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/TestJenKins-1.0-SNAPSHOT.war" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,12 +51,182 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.test.App" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_mwycode_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51465" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8001/mwycode/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mwycode:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mwycode_war" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/target/TestJenKins-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/TestJenKins_1_0_SNAPSHOT_war" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_mwycode" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51454" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mwycode:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51480" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,7 +248,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559565134070</updated>
       <workItem from="1559565137198" duration="3345000" />
-      <workItem from="1595320060008" duration="1796000" />
+      <workItem from="1595320060008" duration="7578000" />
     </task>
     <task id="LOCAL-00001" summary="ceshi">
       <created>1595320558472</created>
@@ -86,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595320558472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ceshi2">
+      <created>1595321880399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595321880399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,42 +286,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="ceshi2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="13" key="#App" timestamp="1595320407572">
+    <state x="510" y="13" key="#App" timestamp="1595325130981">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="510" y="13" key="#App/0.0.1920.1032@0.0.1920.1032" timestamp="1595320407572" />
-    <state x="622" y="254" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595320250594">
+    <state x="510" y="13" key="#App/0.0.1920.1032@0.0.1920.1032" timestamp="1595325130980" />
+    <state x="737" y="366" key="#Tomcat_Server" timestamp="1595323819333">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="622" y="254" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1595320250594" />
+    <state x="737" y="366" key="#Tomcat_Server/0.0.1920.1032@0.0.1920.1032" timestamp="1595323819333" />
+    <state x="409" y="159" width="1174" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595325097899">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="409" y="159" width="1174" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1595325097899" />
+    <state x="622" y="254" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595325046832">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="622" y="254" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1595325046832" />
     <state x="458" y="3" key="CommitChangelistDialog2" timestamp="1595321868375">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="458" y="3" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1595321868375" />
-    <state x="686" y="192" key="FileChooserDialogImpl" timestamp="1595321811902">
+    <state x="91" y="91" width="1738" height="850" key="DiffContextDialog" timestamp="1595322201108">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="686" y="192" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1595321811902" />
-    <state width="1864" height="381" key="GridCell.Tab.0.bottom" timestamp="1595320795160">
+    <state x="91" y="91" width="1738" height="850" key="DiffContextDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1595322201108" />
+    <state x="686" y="192" key="FileChooserDialogImpl" timestamp="1595325078138">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="381" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1595320795160" />
-    <state width="1864" height="381" key="GridCell.Tab.0.center" timestamp="1595320795160">
+    <state x="686" y="192" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1595325078138" />
+    <state x="685" y="357" key="Github.CreatePullRequestDialog" timestamp="1595322132441">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="381" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1595320795160" />
-    <state width="1864" height="381" key="GridCell.Tab.0.left" timestamp="1595320795160">
+    <state x="685" y="357" key="Github.CreatePullRequestDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1595322132441" />
+    <state width="1864" height="183" key="GridCell.Tab.0.bottom" timestamp="1595330065955">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="381" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1595320795160" />
-    <state width="1864" height="381" key="GridCell.Tab.0.right" timestamp="1595320795160">
+    <state width="1864" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1595330065955" />
+    <state width="1864" height="183" key="GridCell.Tab.0.center" timestamp="1595330065954">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="381" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1595320795160" />
-    <state x="335" y="56" key="SettingsEditor" timestamp="1595321562237">
+    <state width="1864" height="183" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1595330065954" />
+    <state width="1864" height="183" key="GridCell.Tab.0.left" timestamp="1595330065954">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="335" y="56" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1595321562237" />
+    <state width="1864" height="183" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1595330065954" />
+    <state width="1864" height="183" key="GridCell.Tab.0.right" timestamp="1595330065954">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="183" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1595330065954" />
+    <state x="335" y="56" key="SettingsEditor" timestamp="1595323994754">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="335" y="56" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1595323994754" />
     <state x="91" y="91" width="1738" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595321562939">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
